@@ -1,0 +1,13 @@
+{
+ "doctype": "DocType", "name": "SH Adjustment Decision", "module": "Seven Habits", "custom": 0, "istable": 1,
+ "field_order": ["target_doctype", "target_name", "action", "reason", "status"],
+ "fields": [
+  {"fieldname":"target_doctype","fieldtype":"Select","label":"Target","options":"SH Role\nSH Goal\nSH Project\nSH Habit\nSH Commitment\nSH Task\nSH Event","reqd":1,"in_list_view":1},
+  {"fieldname":"target_name","fieldtype":"Dynamic Link","label":"Target","options":"target_doctype","reqd":1,"in_list_view":1},
+  {"fieldname":"action","fieldtype":"Data","label":"Action","reqd":1,"in_list_view":1},
+  {"fieldname":"reason","fieldtype":"Small Text","label":"Reason"},
+  {"fieldname":"status","fieldtype":"Select","label":"Status","options":"Proposed\nAccepted\nRejected\nApplied","default":"Proposed","reqd":1,"in_list_view":1}
+ ],
+ "permissions": [{"role":"System Manager","read":1,"write":1,"create":1,"delete":1,"report":1,"export":1}],
+ "engine": "InnoDB"
+}

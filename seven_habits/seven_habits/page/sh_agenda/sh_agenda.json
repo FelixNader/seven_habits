@@ -1,0 +1,4 @@
+{
+ "doctype": "Page", "name": "sh-agenda", "page_name": "sh-agenda", "title": "Agenda", "module": "Seven Habits",
+ "standard": "Yes", "system_page": 0, "roles": [{"role": "System Manager"}]
+}

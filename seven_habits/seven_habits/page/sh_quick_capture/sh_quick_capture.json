@@ -1,0 +1,4 @@
+{
+ "doctype": "Page", "name": "sh-quick-capture", "page_name": "sh-quick-capture", "title": "Captura rápida", "module": "Seven Habits",
+ "standard": "Yes", "system_page": 0, "roles": [{"role": "System Manager"}]
+}

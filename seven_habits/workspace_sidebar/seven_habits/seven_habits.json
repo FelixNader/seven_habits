@@ -1,0 +1,31 @@
+{
+ "doctype": "Workspace Sidebar",
+ "name": "Seven Habits",
+ "title": "Seven Habits",
+ "module": "Seven Habits",
+ "app": "seven_habits",
+ "standard": 1,
+ "header_icon": "check",
+ "modified": "2026-09-26 13:40:00.000000",
+ "items": [
+  {"label":"Hoy","type":"Section Break","icon":"calendar"},
+  {"label":"Captura rápida","type":"Link","link_type":"Page","link_to":"sh-quick-capture","icon":"zap"},
+  {"label":"Agenda","type":"Link","link_type":"Page","link_to":"sh-agenda","icon":"calendar-days"},
+  {"label":"Bitácora","type":"Link","link_type":"Page","link_to":"sh-timeline","icon":"book-open"},
+  {"label":"Plan vs Real","type":"Link","link_type":"Page","link_to":"sh-plan-vs-real","icon":"chart-no-axes-combined"},
+  {"label":"Alineación","type":"Section Break","icon":"compass"},
+  {"label":"SH Mission","type":"Link","link_type":"DocType","link_to":"SH Mission","icon":"flag"},
+  {"label":"SH Role","type":"Link","link_type":"DocType","link_to":"SH Role","icon":"user-round"},
+  {"label":"SH Goal","type":"Link","link_type":"DocType","link_to":"SH Goal","icon":"target"},
+  {"label":"SH Project","type":"Link","link_type":"DocType","link_to":"SH Project","icon":"folder-kanban"},
+  {"label":"SH Habit","type":"Link","link_type":"DocType","link_to":"SH Habit","icon":"repeat"},
+  {"label":"Planificación","type":"Section Break","icon":"list-checks"},
+  {"label":"SH Commitment","type":"Link","link_type":"DocType","link_to":"SH Commitment","icon":"circle-check"},
+  {"label":"SH Task","type":"Link","link_type":"DocType","link_to":"SH Task","icon":"list-check"},
+  {"label":"SH Event","type":"Link","link_type":"DocType","link_to":"SH Event","icon":"calendar-clock"},
+  {"label":"Comprender","type":"Section Break","icon":"lightbulb"},
+  {"label":"SH Interpretation","type":"Link","link_type":"DocType","link_to":"SH Interpretation","icon":"message-circle"},
+  {"label":"Aprender","type":"Section Break","icon":"book-open-check"},
+  {"label":"SH Review","type":"Link","link_type":"DocType","link_to":"SH Review","icon":"clipboard-check"}
+ ]
+}

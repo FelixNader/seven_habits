@@ -1,0 +1,14 @@
+{
+ "doctype": "DocType", "name": "SH Classification", "module": "Seven Habits", "custom": 0, "istable": 1,
+ "field_order": ["dimension_type", "reference_doctype", "reference_name", "provenance", "confidence", "accepted"],
+ "fields": [
+  {"fieldname":"dimension_type","fieldtype":"Select","label":"Dimension Type","options":"Role\nGoal\nProject\nHabit\nCommitment\nTask\nEvent\nEisenhower\nPerson\nOther","reqd":1,"in_list_view":1},
+  {"fieldname":"reference_doctype","fieldtype":"Select","label":"Reference DocType","options":"SH Role\nSH Goal\nSH Project\nSH Habit\nSH Commitment","hidden":1},
+  {"fieldname":"reference_name","fieldtype":"Dynamic Link","label":"Reference","options":"reference_doctype","in_list_view":1},
+  {"fieldname":"provenance","fieldtype":"Select","label":"Provenance","options":"Human\nAI\nRule\nImport","default":"Human","reqd":1,"in_list_view":1},
+  {"fieldname":"confidence","fieldtype":"Percent","label":"Confidence"},
+  {"fieldname":"accepted","fieldtype":"Check","label":"Accepted","default":"1","in_list_view":1}
+ ],
+ "permissions": [{"role":"System Manager","read":1,"write":1,"create":1,"delete":1,"report":1,"export":1}],
+ "engine": "InnoDB"
+}

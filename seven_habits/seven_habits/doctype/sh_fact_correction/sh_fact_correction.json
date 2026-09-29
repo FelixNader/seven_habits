@@ -1,0 +1,13 @@
+{
+ "doctype": "DocType", "name": "SH Fact Correction", "module": "Seven Habits", "custom": 0,
+ "istable": 1,
+ "field_order": ["field_name", "previous_value", "corrected_value", "reason", "corrected_at"],
+ "fields": [
+  {"fieldname":"field_name","fieldtype":"Data","label":"Field","reqd":1,"in_list_view":1},
+  {"fieldname":"previous_value","fieldtype":"Small Text","label":"Previous Value","reqd":1},
+  {"fieldname":"corrected_value","fieldtype":"Small Text","label":"Corrected Value","reqd":1},
+  {"fieldname":"reason","fieldtype":"Small Text","label":"Reason","reqd":1},
+  {"fieldname":"corrected_at","fieldtype":"Datetime","label":"Corrected At","reqd":1,"read_only":1}
+ ],
+ "engine": "InnoDB"
+}

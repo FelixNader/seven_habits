@@ -1,0 +1,11 @@
+{
+ "doctype": "DocType", "name": "SH Role", "module": "Seven Habits", "custom": 0,
+ "autoname": "field:role_name", "field_order": ["role_name", "description", "active"],
+ "fields": [
+  {"fieldname":"role_name","fieldtype":"Data","label":"Role Name","reqd":1,"unique":1},
+  {"fieldname":"description","fieldtype":"Small Text","label":"Description"},
+  {"fieldname":"active","fieldtype":"Check","label":"Active","default":"1"}
+ ],
+ "permissions": [{"role":"System Manager","read":1,"write":1,"create":1,"delete":1,"report":1,"export":1}],
+ "engine": "InnoDB", "track_changes": 1
+}

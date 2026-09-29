@@ -1,0 +1,12 @@
+{
+ "doctype": "DocType", "name": "SH Goal", "module": "Seven Habits", "custom": 0,
+ "autoname": "field:goal_name", "field_order": ["goal_name", "description", "status", "target_date"],
+ "fields": [
+  {"fieldname":"goal_name","fieldtype":"Data","label":"Goal Name","reqd":1,"unique":1},
+  {"fieldname":"description","fieldtype":"Text","label":"Description"},
+  {"fieldname":"status","fieldtype":"Select","label":"Status","options":"Active\nCompleted\nAbandoned","default":"Active","reqd":1},
+  {"fieldname":"target_date","fieldtype":"Date","label":"Target Date"}
+ ],
+ "permissions": [{"role":"System Manager","read":1,"write":1,"create":1,"delete":1,"report":1,"export":1}],
+ "engine": "InnoDB", "track_changes": 1
+}

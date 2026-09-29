@@ -1,0 +1,12 @@
+{
+ "doctype": "DocType", "name": "SH Habit", "module": "Seven Habits", "custom": 0,
+ "autoname": "field:habit_name", "field_order": ["habit_name", "description", "status", "renewal_dimension"],
+ "fields": [
+  {"fieldname":"habit_name","fieldtype":"Data","label":"Habit Name","reqd":1,"unique":1},
+  {"fieldname":"description","fieldtype":"Text","label":"Description"},
+  {"fieldname":"status","fieldtype":"Select","label":"Status","options":"Active\nPaused\nRetired","default":"Active","reqd":1},
+  {"fieldname":"renewal_dimension","fieldtype":"Select","label":"Renewal Dimension","options":"\nPhysical\nMental\nSocial Emotional\nSpiritual Values"}
+ ],
+ "permissions": [{"role":"System Manager","read":1,"write":1,"create":1,"delete":1,"report":1,"export":1}],
+ "engine": "InnoDB", "track_changes": 1
+}

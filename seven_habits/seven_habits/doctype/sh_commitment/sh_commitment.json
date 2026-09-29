@@ -1,0 +1,18 @@
+{
+ "doctype": "DocType", "name": "SH Commitment", "module": "Seven Habits", "custom": 0, "title_field": "statement", "show_title_field_in_link": 1,
+ "field_order": ["statement", "status", "priority_section", "importance", "urgency", "quadrant", "origin", "created_at", "alignment_section", "alignments"],
+ "fields": [
+  {"fieldname":"statement","fieldtype":"Small Text","label":"Statement","reqd":1,"in_list_view":1},
+  {"fieldname":"status","fieldtype":"Select","label":"Status","options":"Open\nSuspended\nSatisfied\nReleased","default":"Open","reqd":1,"in_list_view":1},
+  {"fieldname":"priority_section","fieldtype":"Section Break","label":"Priority"},
+  {"fieldname":"importance","fieldtype":"Select","label":"Importance","options":"Important\nNot Important\nUnclassified","default":"Unclassified","reqd":1,"in_list_view":1},
+  {"fieldname":"urgency","fieldtype":"Select","label":"Urgency","options":"Urgent\nNot Urgent\nUnclassified","default":"Unclassified","reqd":1,"in_list_view":1},
+  {"fieldname":"quadrant","fieldtype":"Data","label":"Quadrant","read_only":1,"in_list_view":1},
+  {"fieldname":"origin","fieldtype":"Select","label":"Origin","options":"Manual\nReview\nImport\nAI","default":"Manual","reqd":1},
+  {"fieldname":"created_at","fieldtype":"Datetime","label":"Created At","read_only":1},
+  {"fieldname":"alignment_section","fieldtype":"Section Break","label":"Alignment"},
+  {"fieldname":"alignments","fieldtype":"Table","label":"Alignments","options":"SH Commitment Alignment"}
+ ],
+ "permissions": [{"role":"System Manager","read":1,"write":1,"create":1,"delete":1,"report":1,"export":1}],
+ "engine": "InnoDB", "track_changes": 1
+}

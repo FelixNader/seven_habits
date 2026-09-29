@@ -1,0 +1,10 @@
+{
+ "doctype": "DocType", "name": "SH Mission", "module": "Seven Habits", "custom": 0,
+ "field_order": ["statement", "active"],
+ "fields": [
+  {"fieldname":"statement","fieldtype":"Text Editor","label":"Statement","reqd":1},
+  {"fieldname":"active","fieldtype":"Check","label":"Active","default":"1"}
+ ],
+ "permissions": [{"role":"System Manager","read":1,"write":1,"create":1,"delete":1,"report":1,"export":1}],
+ "engine": "InnoDB", "track_changes": 1
+}

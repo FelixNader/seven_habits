@@ -1,0 +1,12 @@
+{
+ "doctype": "DocType", "name": "SH Interpretation", "module": "Seven Habits", "custom": 0,
+ "field_order": ["subject_doctype", "subject_name", "status", "classifications"],
+ "fields": [
+  {"fieldname":"subject_doctype","fieldtype":"Select","label":"Subject","options":"SH Task\nSH Event\nSH Activity Fact\nSH Commitment","reqd":1,"in_list_view":1},
+  {"fieldname":"subject_name","fieldtype":"Dynamic Link","label":"Subject","options":"subject_doctype","reqd":1,"in_list_view":1},
+  {"fieldname":"status","fieldtype":"Select","label":"Status","options":"Draft\nReviewed\nAccepted","default":"Draft","reqd":1,"in_list_view":1},
+  {"fieldname":"classifications","fieldtype":"Table","label":"Classifications","options":"SH Classification"}
+ ],
+ "permissions": [{"role":"System Manager","read":1,"write":1,"create":1,"delete":1,"report":1,"export":1}],
+ "engine": "InnoDB", "track_changes": 1
+}

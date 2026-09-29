@@ -1,0 +1,9 @@
+[project]
+name = "seven_habits"
+version = "0.0.1"
+description = "Personal alignment, planning, evidence and review for Frappe"
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"

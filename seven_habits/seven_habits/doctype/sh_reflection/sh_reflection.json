@@ -1,0 +1,11 @@
+{
+ "doctype": "DocType", "name": "SH Reflection", "module": "Seven Habits", "custom": 0, "istable": 1,
+ "field_order": ["reflection_text", "created_at", "author"],
+ "fields": [
+  {"fieldname":"reflection_text","fieldtype":"Text","label":"Reflection","reqd":1,"in_list_view":1},
+  {"fieldname":"created_at","fieldtype":"Datetime","label":"Created At","read_only":1},
+  {"fieldname":"author","fieldtype":"Link","label":"Author","options":"User","read_only":1}
+ ],
+ "permissions": [{"role":"System Manager","read":1,"write":1,"create":1,"delete":1,"report":1,"export":1}],
+ "engine": "InnoDB"
+}

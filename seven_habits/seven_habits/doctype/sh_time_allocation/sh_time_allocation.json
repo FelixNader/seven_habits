@@ -1,0 +1,10 @@
+{
+ "doctype": "DocType", "name": "SH Time Allocation", "module": "Seven Habits", "custom": 0, "istable": 1,
+ "field_order": ["start_datetime", "end_datetime", "status"],
+ "fields": [
+  {"fieldname":"start_datetime","fieldtype":"Datetime","label":"Start","reqd":1,"in_list_view":1},
+  {"fieldname":"end_datetime","fieldtype":"Datetime","label":"End","reqd":1,"in_list_view":1},
+  {"fieldname":"status","fieldtype":"Select","label":"Status","options":"Planned\nCancelled","default":"Planned","reqd":1,"in_list_view":1}
+ ],
+ "engine": "InnoDB"
+}

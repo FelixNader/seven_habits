@@ -1,0 +1,169 @@
+{
+ "app": "seven_habits",
+ "charts": [],
+ "content": "[{\"id\":\"seven_habits_header\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>7 Hábitos</b></span>\",\"col\":12}},{\"id\":\"seven_habits_intro\",\"type\":\"paragraph\",\"data\":{\"text\":\"Planifica, registra la realidad, interprétala y aprende de ella.\",\"col\":12}},{\"id\":\"seven_habits_commitment\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"SH Commitment\",\"col\":4}},{\"id\":\"seven_habits_task\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"SH Task\",\"col\":4}},{\"id\":\"seven_habits_event\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"SH Event\",\"col\":4}}]",
+ "creation": "2026-09-25 00:00:00.000000",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "check",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "7 Hábitos",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Alineación",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "SH Role",
+   "link_count": 0,
+   "link_to": "SH Role",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "SH Goal",
+   "link_count": 0,
+   "link_to": "SH Goal",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "SH Project",
+   "link_count": 0,
+   "link_to": "SH Project",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "SH Habit",
+   "link_count": 0,
+   "link_to": "SH Habit",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "SH Mission",
+   "link_count": 0,
+   "link_to": "SH Mission",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Planificación",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "SH Commitment",
+   "link_count": 0,
+   "link_to": "SH Commitment",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "SH Task",
+   "link_count": 0,
+   "link_to": "SH Task",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "SH Event",
+   "link_count": 0,
+   "link_to": "SH Event",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {"hidden":0,"is_query_report":0,"label":"Hoy","link_count":0,"onboard":0,"type":"Card Break"},
+  {"dependencies":"","hidden":0,"is_query_report":0,"label":"Captura rápida","link_count":0,"link_to":"sh-quick-capture","link_type":"Page","onboard":0,"type":"Link"},
+  {"dependencies":"","hidden":0,"is_query_report":0,"label":"Agenda","link_count":0,"link_to":"sh-agenda","link_type":"Page","onboard":0,"type":"Link"},
+  {"dependencies":"","hidden":0,"is_query_report":0,"label":"Bitácora","link_count":0,"link_to":"sh-timeline","link_type":"Page","onboard":0,"type":"Link"},
+  {"dependencies":"","hidden":0,"is_query_report":0,"label":"Plan vs Real","link_count":0,"link_to":"sh-plan-vs-real","link_type":"Page","onboard":0,"type":"Link"},
+  {"dependencies":"","hidden":0,"is_query_report":0,"label":"Review","link_count":0,"link_to":"sh-review","link_type":"Page","onboard":0,"type":"Link"},
+  {"hidden":0,"is_query_report":0,"label":"Comprender","link_count":0,"onboard":0,"type":"Card Break"},
+  {"dependencies":"","hidden":0,"is_query_report":0,"label":"SH Interpretation","link_count":0,"link_to":"SH Interpretation","link_type":"DocType","onboard":0,"type":"Link"},
+  {"hidden":0,"is_query_report":0,"label":"Aprender","link_count":0,"onboard":0,"type":"Card Break"},
+  {"dependencies":"","hidden":0,"is_query_report":0,"label":"SH Review","link_count":0,"link_to":"SH Review","link_type":"DocType","onboard":0,"type":"Link"}
+ ],
+ "modified": "2026-09-26 13:20:00.000000",
+ "modified_by": "Administrator",
+ "module": "Seven Habits",
+ "name": "Seven Habits",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 1.0,
+ "shortcuts": [
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "format": "{}",
+   "label": "Compromisos",
+   "link_to": "SH Commitment",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "format": "{}",
+   "label": "Tareas",
+   "link_to": "SH Task",
+   "type": "DocType"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "List",
+   "format": "{}",
+   "label": "Eventos",
+   "link_to": "SH Event",
+   "type": "DocType"
+  }
+ ],
+ "title": "7 Hábitos"
+}

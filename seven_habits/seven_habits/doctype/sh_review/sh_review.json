@@ -1,0 +1,16 @@
+{
+ "doctype": "DocType", "name": "SH Review", "module": "Seven Habits", "custom": 0,
+ "field_order": ["review_type", "period_start", "period_end", "status", "summary", "observations", "reflections", "adjustment_decisions"],
+ "fields": [
+  {"fieldname":"review_type","fieldtype":"Select","label":"Review Type","options":"Daily\nWeekly\nMonthly","default":"Weekly","reqd":1,"in_list_view":1},
+  {"fieldname":"period_start","fieldtype":"Date","label":"Period Start","reqd":1,"in_list_view":1},
+  {"fieldname":"period_end","fieldtype":"Date","label":"Period End","reqd":1,"in_list_view":1},
+  {"fieldname":"status","fieldtype":"Select","label":"Status","options":"Open\nClosed","default":"Open","reqd":1,"in_list_view":1},
+  {"fieldname":"summary","fieldtype":"Text Editor","label":"Summary"},
+  {"fieldname":"observations","fieldtype":"Table","label":"Observations","options":"SH Review Observation"},
+  {"fieldname":"reflections","fieldtype":"Table","label":"Reflections","options":"SH Reflection"},
+  {"fieldname":"adjustment_decisions","fieldtype":"Table","label":"Adjustment Decisions","options":"SH Adjustment Decision"}
+ ],
+ "permissions": [{"role":"System Manager","read":1,"write":1,"create":1,"delete":1,"report":1,"export":1}],
+ "engine": "InnoDB", "track_changes": 1
+}

@@ -1,0 +1,14 @@
+{
+ "doctype": "DocType", "name": "SH Review Observation", "module": "Seven Habits", "custom": 0, "istable": 1,
+ "field_order": ["subject_type", "subject_reference", "planned_minutes", "actual_minutes", "variance_minutes", "note"],
+ "fields": [
+  {"fieldname":"subject_type","fieldtype":"Select","label":"Subject Type","options":"SH Commitment\nSH Task\nSH Event\nSH Activity Fact\nSH Role\nSH Goal\nSH Project\nSH Habit","reqd":1,"in_list_view":1},
+  {"fieldname":"subject_reference","fieldtype":"Dynamic Link","label":"Subject Reference","options":"subject_type","reqd":1,"in_list_view":1},
+  {"fieldname":"planned_minutes","fieldtype":"Int","label":"Planned Minutes"},
+  {"fieldname":"actual_minutes","fieldtype":"Int","label":"Actual Minutes"},
+  {"fieldname":"variance_minutes","fieldtype":"Int","label":"Variance Minutes","read_only":1},
+  {"fieldname":"note","fieldtype":"Small Text","label":"Note"}
+ ],
+ "permissions": [{"role":"System Manager","read":1,"write":1,"create":1,"delete":1,"report":1,"export":1}],
+ "engine": "InnoDB"
+}

@@ -1,0 +1,11 @@
+{
+ "doctype": "DocType", "name": "SH Project", "module": "Seven Habits", "custom": 0,
+ "autoname": "field:project_name", "field_order": ["project_name", "description", "status"],
+ "fields": [
+  {"fieldname":"project_name","fieldtype":"Data","label":"Project Name","reqd":1,"unique":1},
+  {"fieldname":"description","fieldtype":"Text","label":"Description"},
+  {"fieldname":"status","fieldtype":"Select","label":"Status","options":"Planned\nActive\nCompleted\nCancelled","default":"Planned","reqd":1}
+ ],
+ "permissions": [{"role":"System Manager","read":1,"write":1,"create":1,"delete":1,"report":1,"export":1}],
+ "engine": "InnoDB", "track_changes": 1
+}

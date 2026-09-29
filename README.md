@@ -143,7 +143,10 @@ Quedan fuera del MVP inicial la recurrencia avanzada, la automatización intelig
 
 ## Estado del proyecto
 
-La app está en fase inicial de construcción sobre Frappe/ERPNext v16. Este repositorio contiene el modelo y los DocTypes del núcleo; la implementación se valida por contextos y por el flujo completo, no por cantidad de pantallas.
+**Experimental / pre-alpha.** La app está en fase inicial de construcción sobre
+Frappe/ERPNext v16. Este repositorio contiene el modelo y los DocTypes del
+núcleo; la implementación se valida por contextos y por el flujo completo, no
+por cantidad de pantallas. No se recomienda instalarla en producción todavía.
 
 ## Desarrollo local
 
@@ -155,6 +158,8 @@ bench --site development.localhost migrate
 ```
 
 Para iniciar el entorno local desde el proyecto contenedor, consulta las instrucciones de desarrollo del bench y verifica que el sitio esté disponible en `http://development.localhost:8000`.
+
+Los requisitos declarados, la compatibilidad conocida, el procedimiento de instalación experimental y las validaciones pendientes están documentados en [REQUIREMENTS.md](REQUIREMENTS.md).
 
 ## Documentación de diseño
 
